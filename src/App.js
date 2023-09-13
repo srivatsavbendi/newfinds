@@ -343,7 +343,7 @@ const MainComponent = () => {
         <a href="/" className="text-decoration-none text-black"><h1><b>NF</b></h1></a>
       </div>
 
-      <div className="mx-5 pt-5 mt-5">
+      <div className="mx-5 pt-4 mt-5">
         <div className="topic-buttons mt-2 mb-1 text-center">
           <span><button className="btn mx-2 border-0 "><a style={{backgroundColor: allb, color: allc}} className="px-2 round btn text-decoration-none" href="/">All</a></button></span>
           <span><button className="btn mx-2 border-0 " style={{backgroundColor: artb, color: artc}} onClick={() => { toggleTopic('Art'); runart(); }}>Art</button></span>
@@ -365,9 +365,9 @@ const MainComponent = () => {
             <div className="card-body px-4">
               <h5 className="card-title">{newsletter.name}</h5>
               <p className="card-text">{newsletter.description}</p>
-              <a href="#" className="btn btn-sm border" style={{backgroundColor: cardButtonColor, color: 'black'}} >{newsletter.topic[0]}</a>
-              <a href="#" className="btn btn-sm border mx-2" style={{backgroundColor: cardButtonColor, color: 'black'}} >{newsletter.frequency}</a>
-              <a href="#" className="btn btn-sm border btn-primary" style={{backgroundColor: cardButtonColor, color: 'black'}} >{newsletter.content}</a>
+              <a href="#" className="btn btn-sm border mt-2 me-2" style={{backgroundColor: cardButtonColor, color: 'black'}} >{newsletter.topic[0]}</a>
+              <a href="#" className="btn btn-sm border mt-2 me-2" style={{backgroundColor: cardButtonColor, color: 'black'}} >{newsletter.frequency}</a>
+              <a href="#" className="btn btn-sm border mt-2 btn-primary" style={{backgroundColor: cardButtonColor, color: 'black'}} >{newsletter.content}</a>
 
             </div>
 
